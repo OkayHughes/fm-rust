@@ -1,0 +1,15 @@
+[package]
+
+name="fm-rust"
+authors = ["Owen Hughes <okayhughes@gmail.com>", "Caleb Jones <bionicle.dragon@gmail.com>"]
+version = "0.0.0"
+
+[dependencies.rust-portaudio]
+
+git = "https://github.com/JeremyLetang/rust-portaudio.git"
+
+
+
+[[bin]]
+
+name = "fm-rust"

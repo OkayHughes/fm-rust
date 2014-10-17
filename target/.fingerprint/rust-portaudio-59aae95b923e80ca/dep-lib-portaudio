@@ -1,0 +1,4 @@
+/Users/Owen/Programming/rust/fm-rust/target/deps/libportaudio-59aae95b923e80ca.dylib: src/portaudio.rs src/types.rs src/pa.rs src/ffi.rs
+
+/Users/Owen/Programming/rust/fm-rust/target/deps/libportaudio-59aae95b923e80ca.rlib: src/portaudio.rs src/types.rs src/pa.rs src/ffi.rs
+

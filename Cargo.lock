@@ -1,0 +1,12 @@
+[root]
+name = "fm-rust"
+version = "0.0.0"
+dependencies = [
+ "rust-portaudio 0.3.0 (git+https://github.com/JeremyLetang/rust-portaudio.git#4541b7df84d5b61a74c524731c172b40f8b9b85c)",
+]
+
+[[package]]
+name = "rust-portaudio"
+version = "0.3.0"
+source = "git+https://github.com/JeremyLetang/rust-portaudio.git#4541b7df84d5b61a74c524731c172b40f8b9b85c"
+
