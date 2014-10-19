@@ -6,9 +6,11 @@ version = "0.0.0"
 
 [dependencies.rust-portaudio]
 
-git = "https://github.com/JeremyLetang/rust-portaudio.git"
+git = "https://github.com/jeremyletang/rust-portaudio.git"
 
+[dependencies.conrod]
 
+git = "https://github.com/PistonDevelopers/conrod.git"
 
 [[bin]]
 

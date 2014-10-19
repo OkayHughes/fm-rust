@@ -2,11 +2,154 @@
 name = "fm-rust"
 version = "0.0.0"
 dependencies = [
- "rust-portaudio 0.3.0 (git+https://github.com/JeremyLetang/rust-portaudio.git#4541b7df84d5b61a74c524731c172b40f8b9b85c)",
+ "conrod 0.0.0 (git+https://github.com/PistonDevelopers/conrod.git#e3c9fc4279897b2bd471beace5478190ed20b58d)",
+ "rust-portaudio 0.3.0 (git+https://github.com/jeremyletang/rust-portaudio.git#4541b7df84d5b61a74c524731c172b40f8b9b85c)",
+]
+
+[[package]]
+name = "cam"
+version = "0.0.0"
+source = "git+https://github.com/pistondevelopers/cam#82a20187d0e81b5dff399f181017c4ed542c170e"
+dependencies = [
+ "input 0.0.0 (git+https://github.com/pistondevelopers/input#17ca9c4a96cf56b3c3c5c01824ee237e37542b00)",
+ "vecmath 0.0.0 (git+https://github.com/PistonDevelopers/vecmath.git#7221b36c453a6dc5fcf3cafac72ba94de90fe5a9)",
+]
+
+[[package]]
+name = "conrod"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/conrod.git#e3c9fc4279897b2bd471beace5478190ed20b58d"
+dependencies = [
+ "freetype-rs 0.0.0 (git+https://github.com/PistonDevelopers/freetype-rs.git#54efba2495235fd87a4648b9c7e04d1f73938122)",
+ "graphics 0.0.0 (git+https://github.com/PistonDevelopers/graphics.git#2560f8df98a835cc7762a53d5ec67a8068aeb46a)",
+ "opengl_graphics 0.0.0 (git+https://github.com/PistonDevelopers/opengl_graphics.git#4a815e0ba92c0879d87855af4f0bdbeb78398900)",
+ "piston 0.0.0 (git+https://github.com/PistonDevelopers/piston#8bd0f9dfbf98dbef4ef9d66c9da877b26cdd7fec)",
+ "vecmath 0.0.0 (git+https://github.com/PistonDevelopers/vecmath.git#7221b36c453a6dc5fcf3cafac72ba94de90fe5a9)",
+]
+
+[[package]]
+name = "event"
+version = "0.0.0"
+source = "git+https://github.com/pistondevelopers/event#5645d65568d326bf85dd8e26afc96c0f99bed3bd"
+dependencies = [
+ "input 0.0.0 (git+https://github.com/pistondevelopers/input#17ca9c4a96cf56b3c3c5c01824ee237e37542b00)",
+]
+
+[[package]]
+name = "freetype-rs"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/freetype-rs.git#54efba2495235fd87a4648b9c7e04d1f73938122"
+
+[[package]]
+name = "genmesh"
+version = "0.1.0"
+source = "git+https://github.com/csherratt/genmesh.git#d68da4cb69e11a8e69b41b679e97985db2aecf13"
+
+[[package]]
+name = "gl"
+version = "0.0.1"
+source = "git+https://github.com/bjz/gl-rs#feed7be39546edb7e8781e3fbe5892caa41a5383"
+dependencies = [
+ "gl_generator 0.0.1 (git+https://github.com/bjz/gl-rs#feed7be39546edb7e8781e3fbe5892caa41a5383)",
+]
+
+[[package]]
+name = "gl_generator"
+version = "0.0.1"
+source = "git+https://github.com/bjz/gl-rs#feed7be39546edb7e8781e3fbe5892caa41a5383"
+dependencies = [
+ "khronos_api 0.0.1 (git+https://github.com/bjz/gl-rs#feed7be39546edb7e8781e3fbe5892caa41a5383)",
+ "rust-xml 0.1.0 (git+https://github.com/netvl/rust-xml#f86f02b3b1c355080136b0acc322b3318c195cda)",
+]
+
+[[package]]
+name = "graphics"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/graphics.git#2560f8df98a835cc7762a53d5ec67a8068aeb46a"
+dependencies = [
+ "vecmath 0.0.0 (git+https://github.com/PistonDevelopers/vecmath.git#7221b36c453a6dc5fcf3cafac72ba94de90fe5a9)",
+]
+
+[[package]]
+name = "image"
+version = "0.0.0"
+source = "git+https://github.com/pistondevelopers/image#a69748eed4494fff905030dd54eeebf8a5ebc7d3"
+
+[[package]]
+name = "input"
+version = "0.0.0"
+source = "git+https://github.com/pistondevelopers/input#17ca9c4a96cf56b3c3c5c01824ee237e37542b00"
+
+[[package]]
+name = "khronos_api"
+version = "0.0.1"
+source = "git+https://github.com/bjz/gl-rs#feed7be39546edb7e8781e3fbe5892caa41a5383"
+
+[[package]]
+name = "noise-rs"
+version = "0.0.1"
+source = "git+https://github.com/bjz/noise-rs#efd7125385cacae0f911032345729c8cfd98f72c"
+
+[[package]]
+name = "opengl_graphics"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/opengl_graphics.git#4a815e0ba92c0879d87855af4f0bdbeb78398900"
+dependencies = [
+ "gl 0.0.1 (git+https://github.com/bjz/gl-rs#feed7be39546edb7e8781e3fbe5892caa41a5383)",
+ "graphics 0.0.0 (git+https://github.com/PistonDevelopers/graphics.git#2560f8df98a835cc7762a53d5ec67a8068aeb46a)",
+ "image 0.0.0 (git+https://github.com/pistondevelopers/image#a69748eed4494fff905030dd54eeebf8a5ebc7d3)",
+ "shader_version 0.0.0 (git+https://github.com/pistondevelopers/shader_version#c561d15e7d3a561271222daefe073054f5d62b8c)",
+]
+
+[[package]]
+name = "piston"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/piston#8bd0f9dfbf98dbef4ef9d66c9da877b26cdd7fec"
+dependencies = [
+ "cam 0.0.0 (git+https://github.com/pistondevelopers/cam#82a20187d0e81b5dff399f181017c4ed542c170e)",
+ "event 0.0.0 (git+https://github.com/pistondevelopers/event#5645d65568d326bf85dd8e26afc96c0f99bed3bd)",
+ "genmesh 0.1.0 (git+https://github.com/csherratt/genmesh.git#d68da4cb69e11a8e69b41b679e97985db2aecf13)",
+ "graphics 0.0.0 (git+https://github.com/PistonDevelopers/graphics.git#2560f8df98a835cc7762a53d5ec67a8068aeb46a)",
+ "image 0.0.0 (git+https://github.com/pistondevelopers/image#a69748eed4494fff905030dd54eeebf8a5ebc7d3)",
+ "input 0.0.0 (git+https://github.com/pistondevelopers/input#17ca9c4a96cf56b3c3c5c01824ee237e37542b00)",
+ "noise-rs 0.0.1 (git+https://github.com/bjz/noise-rs#efd7125385cacae0f911032345729c8cfd98f72c)",
+ "shader_version 0.0.0 (git+https://github.com/pistondevelopers/shader_version#c561d15e7d3a561271222daefe073054f5d62b8c)",
+ "sprite 0.0.0 (git+https://github.com/pistondevelopers/sprite#c85d22e6b2da6b453b4801d0af5d5b73f1c1905b)",
+ "vecmath 0.0.0 (git+https://github.com/PistonDevelopers/vecmath.git#7221b36c453a6dc5fcf3cafac72ba94de90fe5a9)",
 ]
 
 [[package]]
 name = "rust-portaudio"
 version = "0.3.0"
-source = "git+https://github.com/JeremyLetang/rust-portaudio.git#4541b7df84d5b61a74c524731c172b40f8b9b85c"
+source = "git+https://github.com/jeremyletang/rust-portaudio.git#4541b7df84d5b61a74c524731c172b40f8b9b85c"
+
+[[package]]
+name = "rust-xml"
+version = "0.1.0"
+source = "git+https://github.com/netvl/rust-xml#f86f02b3b1c355080136b0acc322b3318c195cda"
+
+[[package]]
+name = "shader_version"
+version = "0.0.0"
+source = "git+https://github.com/pistondevelopers/shader_version#c561d15e7d3a561271222daefe073054f5d62b8c"
+
+[[package]]
+name = "sprite"
+version = "0.0.0"
+source = "git+https://github.com/pistondevelopers/sprite#c85d22e6b2da6b453b4801d0af5d5b73f1c1905b"
+dependencies = [
+ "event 0.0.0 (git+https://github.com/pistondevelopers/event#5645d65568d326bf85dd8e26afc96c0f99bed3bd)",
+ "graphics 0.0.0 (git+https://github.com/PistonDevelopers/graphics.git#2560f8df98a835cc7762a53d5ec67a8068aeb46a)",
+ "uuid 0.0.1 (git+https://github.com/rust-lang/uuid#c6159089a491ff4398c6d423263a085c95092a04)",
+]
+
+[[package]]
+name = "uuid"
+version = "0.0.1"
+source = "git+https://github.com/rust-lang/uuid#c6159089a491ff4398c6d423263a085c95092a04"
+
+[[package]]
+name = "vecmath"
+version = "0.0.0"
+source = "git+https://github.com/PistonDevelopers/vecmath.git#7221b36c453a6dc5fcf3cafac72ba94de90fe5a9"
 
